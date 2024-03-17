@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #decba4, #3e5151);
+}
+
+.main-container {
+  margin: 4% auto;
+  width: 36%;
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 2px 4px 5px grey;
+  .parent-section {
+    .section-heading {
+      margin-bottom: 3rem;
+      h1 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: rgb(6, 6, 73);
+      }
+      img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 5px;
+        margin-right: 0.5rem;
+        text-align: center;
+      }
+    }
+    .section-input {
+      background-image: linear-gradient(to right, #f9f3bb, #d87a8d);
+      padding: 20px;
+      border-radius: 7px;
+      margin-bottom: 3rem;
+      box-shadow: 2px 4px 5px rgb(188, 187, 187);
+
+      input {
+        width: 65%;
+        padding: 10px;
+        margin: 1rem 0;
+        border: 1.5px solid #9c9c9c;
+        outline: none;
+        border-radius: 5px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        font-weight: normal;
+      }
+      button {
+        background-color: rgb(253, 222, 46);
+        padding: 8.5px;
+        margin-left: 15px;
+        width: 30%;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: rgb(6, 6, 73);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.4s;
+      }
+      button:hover {
+        background-color: rgb(232, 198, 5);
+      }
+    }
+    .output-content {
+      p {
+        font-family: serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: normal;
+        color: rgb(81, 81, 81);
+        .span-text {
+          background-color: gold;
+          color: #000;
+          padding: 0 3px;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
